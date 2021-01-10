@@ -1,18 +1,17 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-title: ke2ek
-name: Eunjin Kwon
-email: gej48443@gmail.com
+title: survive-and-go
+name: survive-and-go
+email: 
 footer_text: >
-  <a href="https://github.com/ke2ek">Github</a>
-  <a href="./">LinkedIn</a>
-url: https://ke2ek.github.io # the base hostname & protocol for your site
+  <a href="https://github.com/survive-and-go.github.io">Github</a>
+url: https://survive-and-go.github.io/blog/ # the base hostname & protocol for your site
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: ke2ek
+blog_name: Survivors
 
 # Pagination
 paginate: 4
