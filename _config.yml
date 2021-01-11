@@ -6,7 +6,7 @@ name: survive-and-go
 email: 
 footer_text: >
   <a href="https://github.com/survive-and-go.github.io">Github</a>
-url: https://survive-and-go.github.io/blog/ # the base hostname & protocol for your site
+url: https://survive-and-go.github.io/ # the base hostname & protocol for your site
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -24,7 +24,7 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: ke2ek # put your disqus shortname
+disqus_shortname: survivor # put your disqus shortname
 
 # Optional features
 show_social_icons:  false

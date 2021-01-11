@@ -11,10 +11,10 @@ No plugins required.
 import glob
 import os
 
-post_dir = '_posts/'
+post_dir = '_posts/*/'
 tag_dir = 'blog/tags/'
 
-filenames = glob.glob(post_dir + '*md')
+filenames = glob.glob(post_dir + '*.md')
 
 total_tags = []
 for filename in filenames:

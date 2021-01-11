@@ -1,5 +1,5 @@
-.resume-header {
-    font-family: $resume-font-family;
+.home-header {
+    font-family: $home-font-family;
     color: black;
     margin-bottom: $space-2; // $space-1;
     p {
@@ -10,16 +10,16 @@
     }
 }
 
-.resume-title {
+.home-title {
     display: inline-block;
     margin: 0;
-    font-family: $resume-font-family;
+    font-family: $home-font-family;
     font-size: 24pt;
     color: black;
 }
 
-.resume-description {
-    font-family: $resume-font-family;
+.home-description {
+    font-family: $home-font-family;
     display: inline-block;
     float: right;
     text-align: right;
@@ -27,7 +27,7 @@
     margin-top: $space-1;
 }
 
-.resume-list {
+.home-list {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -39,10 +39,10 @@
     }
 }
 
-.resume-content {
+.home-content {
     h3, h4, h5, p, li {
         font-size: 12pt;
-        font-family: $resume-font-family;
+        font-family: $home-font-family;
         a { color: black; }
     }
 
@@ -51,10 +51,12 @@
         color: $blue-1;
         letter-spacing: 0.5px;
         margin: 0;
-        padding-top: 20px; // 15px
+        padding-top: 30px;
+        padding-bottom: 5px;
     }
 
     h4 { // Subtitle
+        width: 70%;
         display: inline-block;
         margin: $space-0 0;
         color: black;
@@ -79,13 +81,13 @@
     }
 }
 
-.resume-meta {
+.home-meta {
     color: $grey-color;
     font-size: $small-font-size;
     margin-bottom: 0px;
 }
 
-.resume-link {
+.home-link {
     display: block;
     font-size: 42px;
 }
